@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/thinkingmike/tides-gh.git/precache-manifest.1280c4fee64d12c36e279c7436c008c0.js"
+  "/tides-gh.git/precache-manifest.7dea3fe6b9f4b73c8eec962657abdea0.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/thinkingmike/tides-gh.git/index.html", {
+workbox.routing.registerNavigationRoute("/tides-gh.git/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
